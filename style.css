@@ -1,0 +1,50 @@
+.game-container {
+    /* background-color: greenyellow; */
+    height: 630px;
+    width: 1350px;
+    background-size: 100% 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/134/970/large_2x/underwater-vector-background.jpg);
+}
+
+.game-board {
+    height: 90%;
+    width: 1350px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.game-shape {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 20%;
+    width: 12%;
+    display: inline-block;
+    margin: auto;
+}
+
+.game-shape-clicked {
+    height: 20;
+    width: 12%;
+    display: inline-block;
+    margin: auto;
+}
+
+.game-btn {
+    height: 10%;
+    width: 1350px;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+}
+
+.try-again-btn {
+    display: inline-block;
+    margin: auto;
+}
+
+.start-btn {
+    margin: auto;
+    display: inline-block;
+}
